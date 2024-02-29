@@ -1,0 +1,51 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="270dip"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:padding="10dip"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/imgDrawerImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/profile_icon"
+        android:layout_marginTop="48dip"
+        android:layout_marginLeft="15dip"/>
+
+    <TextView
+        android:id="@+id/txtDrawerText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtPhone"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="12dip"
+        android:layout_marginLeft="15dip"
+        android:clickable="true"
+        android:fontFamily="@font/poppins_medium"
+        android:textStyle="bold"
+        android:text="@string/app_name"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/txtDrawerSecondaryText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="18dip"
+        android:textAllCaps="false"
+        android:text="@string/app_name"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"/>
+</LinearLayout>
